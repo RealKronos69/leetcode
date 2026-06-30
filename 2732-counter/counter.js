@@ -3,9 +3,9 @@
  * @return {Function} counter
  */
 var createCounter = function(n) {
-    const obj = {num:n-1}
+    
     return function() {
-        return obj.num += 1
+        return n++
     };
 };
 
